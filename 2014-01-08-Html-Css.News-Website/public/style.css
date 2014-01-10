@@ -1,0 +1,14 @@
+@import url(http://fonts.googleapis.com/css?family=Press+Start+2P);
+header {
+  color: red;
+  border: 2px dotted black;
+}
+
+header h1 {
+  margin-left: 20px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+body {
+  background-color: orange;
+}

@@ -1,0 +1,69 @@
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,800);
+body {
+  background: url(/images/bg-gradient-sand.png), url(/images/bg-sand.png);
+  background-repeat: repeat-x, repeat;
+  //background: :#f9f9f;
+  //background-image: url(/images/bg-gradient-sand.png);
+  //background-repeat: repeat-x;
+}
+
+div#wrapper {
+}
+
+div#main {
+  //border: 1px solid green;
+  width: 960px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+#moz-img {
+  margin-bottom: -4px;
+}
+
+h1 {
+  font-family: 'Open Sans Light', sans-serif;
+  color: #c13832;
+  font-size: 84px;
+  font-weight: 400;
+  letter-spacing: -0.05em;
+  margin: 0 0 .05em;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.75);
+}
+
+h2 {
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 55px;
+  margin: 0;
+  letter-spacing: -0.025em;
+  margin: 0;
+  }
+
+nav {
+  //border: 1px solid red;
+  text-align: right;
+  margin-right: 18px;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #484848;
+  padding: 12px;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
