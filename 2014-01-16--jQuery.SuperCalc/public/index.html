@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang-"en">
+  <head>
+    <meta charset = "utf-8">
+    <title>jQuery SuperCalc!</title>
+
+    <link rel='stylesheet' href='css/style.css'>
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/logic.js"></script>
+  </head>
+  <body>
+    <h1 id="title">jQuery SuperCalc!</h1>
+    <div id="calcBody">
+      <div id='answerWrapper'>
+        <div id="answer">0</div>
+      </div>
+      <div id="buttons">
+         <ul>
+           <li><div class="numBtn">7</div></li>
+           <li><div class="numBtn">8</div></li>
+           <li><div class="numBtn">9</div></li>
+           <li><div class="operator" id="plusBtn">+</div></li>
+         </ul>
+         <ul>
+           <li><div class="numBtn">4</div></li>
+           <li><div class="numBtn">5</div></li> 
+           <li><div class="numBtn">6</div></li>
+           <li><div class="operator" id="minBtn">-</div></li>
+         </ul>
+         <ul>
+           <li><div class="numBtn">1</div></li>
+           <li><div class="numBtn">2</div></li>
+           <li><div class="numBtn">3</div></li>
+           <li><div class="operator" id="multBtn">*</div></li>
+         </ul>
+         <ul>
+           <li><div class="numBtn">0</div></li>
+           <li><div class="numBtn" id="decBtn">.</div></li> 
+           <li><div class="funcBtn" id="pushBtn">PUSH</div></li>
+           <li><div class="operator" id="divBtn">/</div></li>
+         </ul>
+         <ul>
+           <li><div class="operator" id="sumBtn">∑</div></li>
+           <li><div class="operator" id="powBtn">X &#8319;</div></li> 
+           <li><div class="funcBtn" id="clrBtn">C</div></li>
+           <li><div class="funcBtn" id="posNegBtn">&#8314;&#8260;&#8331;</div></li>
+           <li><div id="pwrBtn" class="pwrOff"></div></li>
+         </ul>
+      </div><!--end buttons div-->
+      <div id="queueWindow">
+        <div id="queueBorder"></div>
+        <div id="queueColor"><ul id="queue"></ul></div>
+      </div>
+    </div>
+  </body>
+</html>
+

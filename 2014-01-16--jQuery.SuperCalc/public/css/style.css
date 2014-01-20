@@ -1,0 +1,191 @@
+body {
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+#title {
+  border-bottom: 4px groove #A87245;
+  padding-bottom: 8px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  color: rgb(74,96,157);
+}
+
+#answer {
+  opacity: 0;
+  background: rgba(247,93,10,.5);
+  font-size: 350%;
+  padding-right: 10px;
+  text-align: right;
+  color: rgb(74,96,157);
+  -webkit-box-shadow: -2px 3px 2px 0px rgba(0, 0, 0, 0.71);
+  -moz-box-shadow:    -2px 3px 2px 0px rgba(0, 0, 0, 0.71);
+  box-shadow:         -2px 3px 2px 0px rgba(0, 0, 0, 0.71);
+  overflow: auto;
+}
+
+#answerWrapper {
+  background-image: url(../images/glossyScreen.jpg);
+  width: 85%;
+  margin: 0 auto;
+  height: 65px;
+  border: 4px groove #A87245;
+}
+
+#calcBody {
+  width: 400px;
+  margin: 20px auto;
+  background: url('../images/brushedMetal.jpg');
+  -webkit-box-shadow: 4px 4px 3px 0px rgba(50, 50, 50, 0.71);
+  -moz-box-shadow:    4px 4px 3px 0px rgba(50, 50, 50, 0.71);
+  box-shadow:         4px 4px 3px 0px rgba(50, 50, 50, 0.71);
+  border-radius: 5px;
+  padding: 15px 0;
+  z-index: 100;
+}
+
+#queue {
+  float: right;
+  text-align: right;
+  font-size: 110%;
+  margin-right: 10px;
+}
+
+#queueWindow {
+  width: 140px;
+  height: 310px;
+  border-top: 3px solid rgb(109,109,109);
+  border-bottom: 3px solid rgb(109,109,109);
+  border-right: 1px solid rgb(109,109,109);
+  float: right;
+  position: relative;
+  bottom: 465px;
+  right: 1%;
+  overflow: hidden;
+  z-index: -1;
+  -webkit-box-shadow: 4px 4px 3px 0px rgba(50, 50, 50, 0.71);
+  -moz-box-shadow:    4px 4px 3px 0px rgba(50, 50, 50, 0.71);
+  box-shadow:         4px 4px 3px 0px rgba(50, 50, 50, 0.71);
+  border-radius: 5px;
+  background-image: url(../images/glossyScreenVert.jpg);
+}
+
+#queueColor {
+  background: rgba(247,93,10,.5);
+  width: 125px;
+  height: 310px;
+  float: right;
+  color: rgb(74,96,157);
+}
+
+#queueBorder {
+  width: 13px;
+  height: 310px;
+  background: url('../images/brushedMetalNarrow.jpg');
+  float: right;
+  position: relative;
+  border-left: 1px solid rgb(109,109,109);
+}
+
+#buttons ul li {
+  display:inline-block;
+}
+
+.numBtn, .funcBtn, .operator, .inactive  {
+  cursor: pointer;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 300%;
+  padding: 5px 20px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  border: 1px solid #999;
+  outline: none;
+  -webkit-box-shadow: -2px 3px 2px 0px rgba(0, 0, 0, 0.71);
+  -moz-box-shadow:    -2px 3px 2px 0px rgba(0, 0, 0, 0.71);
+  box-shadow:         -2px 3px 2px 0px rgba(0, 0, 0, 0.71);
+}
+
+.inactive {
+  color: gray;
+}
+
+.numBtn {
+  background: url(../images/calcBtnBlue.jpg);
+  color: #D1D6DE;
+}
+
+.funcBtn, .operator {
+  background: url(../images/calcBtnOrange.jpg);
+}
+
+.activeBtn:hover {
+  color: #C4BF10;
+}
+
+#plusBtn {
+  padding: 5px 11px;
+  margin-left: 25px;
+}
+
+#minBtn {
+  margin-left: 25px;
+}
+
+#multBtn {
+  margin-left: 25px;
+  padding: 5px 16px;
+}
+
+#decBtn {
+  padding: 5px 25px;
+}
+
+#pushBtn {
+  font-size: 120%;
+  padding: 23px 10px;
+  position: relative;
+  bottom: 11px;
+}
+
+#divBtn {
+  margin-left: 25px;
+}
+
+#sumBtn, #clrBtn {
+ padding: 5px 11px;
+}
+
+#powBtn {
+  letter-spacing: -5.5px;
+  padding: 5px 6px;
+}
+
+#posNegBtn {
+  padding: 4px 4px;
+  font-size: 272%;
+  position: relative;
+  bottom: 4px;
+}
+
+#pwrBtn {
+  height: 69px;
+  width: 57px;
+  cursor: pointer;
+  position: relative;
+  left: 20px;
+  top: 15px;
+}
+
+.pwrOff {
+  background: url(../images/powerOff.png);
+}
+
+.pwrOn {
+  background-image: url(../images/powerOn.png);
+}
+
