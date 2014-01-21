@@ -1,0 +1,81 @@
+#calcBody {
+  width: 400px;
+  height: 500px;
+  margin: 0 auto;
+  background: url('../images/irongrip.png');
+  -webkit-box-shadow: 4px 4px 3px 0px rgba(50, 50, 50, 0.71);
+  -moz-box-shadow:    4px 4px 3px 0px rgba(50, 50, 50, 0.71);
+  box-shadow:         4px 4px 3px 0px rgba(50, 50, 50, 0.71);
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Helvetica Neue", sans-serif;
+  color: white;
+  text-shadow: gray 0.1em 0.1em 0.2em;
+}
+
+#title {
+  position: relative;
+  top: 10px;
+  left: 5%;
+  border-bottom: 4px groove #A87245;
+  padding-bottom: 8px;
+  width: 90%;
+}
+
+.calFields {
+  text-align: center;
+  font-size: 60%;
+  border: 1px solid #999;
+  width: 90%;
+  height: 25px;
+  margin-bottom: 5px;
+}
+
+#inputs1 {
+  padding-left: 5%;
+  width: 45%;
+  float: left;
+}
+
+.btn {
+  font-family: Tahoma, Geneva, sans-serif;
+  background:#09C;
+  color:#fff;
+  width: 80px;
+  height: 20px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  border: 1px solid #999;
+  outline: none;
+}
+
+.btn:hover {
+  background:#fff;
+  color:#09C;
+}
+
+#btnDiv {
+  float: right;
+  width: 45%;
+  padding-right: 4%;
+  padding-top: 5px;
+}
+
+#result {
+  background: rgba(250,250,250,.5);
+  float: right;
+  width: 40%;
+  margin-right: 5%;
+  height: 65px;
+  border: 4px groove #A87245;
+  font-size: 150%;
+}
+
+#resultText {
+  margin-top: 7%;
+}
+

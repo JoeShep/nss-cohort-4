@@ -1,0 +1,26 @@
+doctype html
+html(lang='eng')
+  head
+    meta(charset='utf-8')
+    title Jade Tutorial
+    link(rel='stylesheet', href='/css/style.css')
+ body
+  header
+    h1 Welcome to Jade!
+  #section1
+    ul
+      - for(var i = 0; i < 100; i++)
+        li= i
+
+    //- Below is Javascript!!
+   - var firstName = 'Joe';
+   h2= firstName 
+  #section2
+   h2 Section 1
+   p This is paragraph 1
+   p
+     | This is paragraph 2 <br>
+     br
+     | Addendum <strong>to</strong> paragraph 2
+     span Span 1
+     
